@@ -2,15 +2,15 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
 import './index.css'
-import Menu from './components/Menu'
-import Buscador from './components/Buscador'
+import { store } from './app/store'
+import { Provider } from 'react-redux'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <div className='container mx-auto'>
-      <Menu />
-      <Buscador />
+    <Provider store={store}>
+      <div className='container mx-auto'>
       <App />
-    </div>
-  </React.StrictMode>,
+      </div>
+    </Provider>
+  </React.StrictMode>
 )
