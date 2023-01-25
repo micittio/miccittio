@@ -6,6 +6,7 @@ import Login from './pages/Login/Login'
 import Privacity from './pages/Privacity/Privacity'
 import Singup from './pages/SingUp/SingUp'
 import Home from './pages/Home/Home'
+import NotFound from './pages/NotFound/NotFound'
 
 export default function RoutesPage() {
   return (
@@ -16,6 +17,7 @@ export default function RoutesPage() {
         <Route path='/termsConditions' element={<TermConditions />} />
         <Route path='/signUp' element={<Singup />} />
         <Route path='/aboutUs' element={<AboutUs />} />
+        <Route path='*' element={<NotFound/>} />
       </Routes>      
   )
 }
