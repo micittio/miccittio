@@ -1,0 +1,66 @@
+{
+    "global":{
+        "title": "Mi Cittio",
+        "slogan": "Primero Local, Siempre Global",
+        "hi": "Bienvenidos"
+    },
+    "navbar": {
+        "menu": {
+            "home": "Inicio",
+            "login": "Inicar Sesión",
+            "noticePrivacy": "Politicas de privacidad",
+            "termsConditions": "Terminos y Condiciones",
+            "singup": "Registrate",
+            "aboutUs": "Nosotros"
+        },
+        "language":{
+            "title": "Idioma",
+            "spanish": "Español", 
+            "english": "Ingles" 
+        }
+    },
+    "modules":{ 
+        "events":{
+            "title": "Eventos",
+            "subtitles": "found events",
+            "form": {
+                "search": "Buscar"
+            }
+        },
+        "login":{
+            "title": "Iniciar Sesión",
+            "subtitles": "found events",
+            "form": {
+                "search": "Buscar"
+            }
+        },
+        "privacity":{
+            "title": "Politicas de privacidad",
+            "subtitles": "found events",
+            "form": {
+                "search": "Buscar"
+            }
+        },
+        "Conditions":{
+            "title": "Terminos y condiciones",
+            "subtitles": "found events",
+            "form": {
+                "search": "Buscar"
+            }
+        },
+        "aboutus":{
+            "title": "Nosotros",
+            "subtitles": "found events",
+            "form": {
+                "search": "Buscar"
+            }
+        },
+        "singup":{
+            "title": "Registrate",
+            "subtitles": "found events",
+            "form": {
+                "search": "Buscar"
+            }
+        }
+    }
+}

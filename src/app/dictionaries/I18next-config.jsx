@@ -1,20 +1,25 @@
-import i18n from 'i18next'
-import { initReactI18next } from 'react-i18next'
+import i18n from 'i18next';
+import { initReactI18next } from 'react-i18next';
+import LanguageDetector from 'i18next-browser-languagedetector';
+import global_es from './messagesES.json';
+import global_en from './messagesEn.json';
 
+const options = {
+    order: ['querystring',  'navigator']
+}
 
-i18n.use(initReactI18next).init({
-    lng: 'en',
+i18n
+    .use(LanguageDetector)
+    .use(initReactI18next)
+    .init({
+    detection: options,
     fallbackLng: "es",
     resources:{
         es: {
-            translation: {
-                title: "Hola Mundo"
-            }
+            global: global_es,
         },
         en: {
-            translation: {
-                title: "Hello Word"
-            }
+            global: global_en,
         }
     }
 })

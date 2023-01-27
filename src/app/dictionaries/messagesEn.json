@@ -1,0 +1,66 @@
+{
+    "global": {
+        "title": "Mi Cittio",
+        "slogan": "First Local, Always Global",
+        "hi": "Welcome"
+    },
+    "navbar": {
+        "menu": {
+            "home": "Home",
+            "login": "Log In",
+            "noticePrivacy": "Notice of Privacy",
+            "termsConditions": "Terms and Conditions",
+            "singup": "Singup",
+            "aboutUs": "About us"
+        },
+        "language": {
+            "title": "Language",
+            "spanish": "Spanish", 
+            "english": "English" 
+        }
+    },
+    "modules": { 
+        "events":{
+            "title": "Events",
+            "subtitles": "found events",
+            "form": {
+                "search": "Buscar"
+            }
+        },
+        "login":{
+            "title": "Login",
+            "subtitles": "found events",
+            "form": {
+                "search": "Buscar"
+            }
+        },
+        "privacity":{
+            "title": "Notice of Privacy",
+            "subtitles": "found events",
+            "form": {
+                "search": "Buscar"
+            }
+        },
+        "Conditions":{
+            "title": "Terms and Conditions",
+            "subtitles": "found events",
+            "form": {
+                "search": "Buscar"
+            }
+        },
+        "aboutus":{
+            "title": "About Us",
+            "subtitles": "found events",
+            "form": {
+                "search": "Buscar"
+            }
+        },
+        "singup":{
+            "title": "Singup",
+            "subtitles": "found events",
+            "form": {
+                "search": "Buscar"
+            }
+        }
+    }
+}
